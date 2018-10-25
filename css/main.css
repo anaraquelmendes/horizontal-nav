@@ -4,30 +4,31 @@ html {
 }
 
 *, *::before, *::after {
- box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
 }
 
-h1 {
+header {
   background-color: #79756f;
   color: #fff;
-  font-family: "Bevan";
   margin: 0;
-  padding: .6em, .5em;
+  padding: 0;
   text-align: center;
-  text-size: 3rem;
   border-color: #595652;
   border-style: solid;
-  border-top-width: thin;
-  border-bottom-width: thin;
+  border-left-width: 0;
+  border-right-width: 0;
 }
 
-.nav a {
-  list-style-type: none;
-  padding: .75em;
+h1 {
+  font-family:"Bevan";
+}
+
+.menu li {
+  padding: .5em;
   background-color: #713837;
   margin: 0;
   text-align: center;
@@ -35,8 +36,15 @@ h1 {
   color: #fff;
   display: inline-block;
   text-decoration: none;
+  font-family: sans-serif;
+  font-weight: normal;
+  list-style-type: none;
 }
 
-.nav a:hover {
+.menu li:hover {
   background-color: #f33;
+}
+
+h2 {
+  background-color: #dbd6cf;
 }
