@@ -1,14 +1,10 @@
 html {
-  font: normal 100%/1.5 "Bevan", sans-serif;
+  font: normal 100%/1.5 Bevan, sans-serif;
   box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-body {
-  margin: 0;
 }
 
 header {
@@ -24,13 +20,15 @@ header {
 }
 
 h1 {
-  font-family:"Bevan";
+  font-family: Bevan, serif;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
-  padding: .5em;
+  padding: .5em .75em;
   background-color: #713837;
-  margin: 0;
+  margin: .1em;
   text-align: center;
   border-radius: 4px;
   color: #fff;
@@ -41,11 +39,16 @@ h1 {
   list-style-type: none;
 }
 
+ul {
+  margin: .3em;
+  padding: 0;
+}
+
 .menu li:hover {
   background-color: #f33;
 }
 
-h2 {
+body {
   background-color: #dbd6cf;
-  margin: .3em;
+  margin: 0;
 }
