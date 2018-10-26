@@ -42,10 +42,17 @@ h1 {
 ul {
   margin: .3em;
   padding: 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu li:hover {
   background-color: #f33;
+}
+
+a:link {
+  color: #fff;
+  text-decoration: none;
 }
 
 body {
