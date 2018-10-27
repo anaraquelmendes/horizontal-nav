@@ -46,7 +46,7 @@ ul {
   text-decoration: none;
 }
 
-.menu li:hover {
+.menu a:hover {
   background-color: #f33;
 }
 
